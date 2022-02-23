@@ -102,7 +102,7 @@ resource "aws_instance" "client" {
   }
 
   provisioner "file" {
-    source      = "./client/run_tests.sh"
+    source      = "./client/run_tests2.sh"
     destination = "/tmp/run_tests.sh"
   }
 
